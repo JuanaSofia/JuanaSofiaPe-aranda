@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contacto.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/oce0ovw.css">
+</head>
+
+<body>
+    <form method="get">
+        <legend>Hablemos!</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" size="30" autocomplete="on" />
+        <label for="correo">Email</label>
+        <input type="email" name="correo" placeholder="email@dominio.com" autocomplete="on" />
+        <div><label for="subject">Asunto</label>
+            <input type="text" name="subject" size="30" spellcheck="true" />
+        </div>
+        <div><label for="mensaje">Escribe tu mensaje</label><textarea name="mensaje" rows="3" cols="68"
+                spellcheck="true"></textarea><!-- <input type="text" name="mensaje" size="50" /> --></div>
+        <div><input type="submit" value="Enviar" /></div>
+    </form>
+</body>

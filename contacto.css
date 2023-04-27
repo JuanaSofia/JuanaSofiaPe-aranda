@@ -1,0 +1,20 @@
+* {
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+    font-family: "serenity", sans-serif;
+    font-style: normal;
+}
+form {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing:content-box;}
+label {
+    display: inline-block;
+    font: 2rem;
+}
+input,
+label {
+    margin: .5rem 0;
+    font-size: 15px;
+}

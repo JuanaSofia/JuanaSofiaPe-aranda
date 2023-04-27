@@ -1,0 +1,45 @@
+* {
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+    font-family: "serenity", sans-serif;
+    font-style: normal;
+}
+
+img {
+    max-width: 40%;
+    margin: 10px;
+    max-height: 333px;
+}
+
+.sobremi,
+.desc {
+    text-align: left;
+    overflow: hidden;
+    width: 450px;
+    margin-left: 30px;
+}
+
+.home,
+.menu {
+    display: inline-block;
+    text-align: center;
+}
+
+ul,
+li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+a {
+    font-weight: 300;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #D9D9D9;
+}
+
+h2 {
+    font-weight: 200;
+}
